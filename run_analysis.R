@@ -10,7 +10,7 @@ Ytest <- read.table("UCI HAR Dataset/test/y_test.txt") # 2947 x 1
 SubjectTest <- read.table("UCI HAR Dataset/test/subject_test.txt") # 2947 x 1
 
 Features <- read.table("UCI HAR Dataset/features.txt") # 561 x 2
-Activities <- read.table("UCI HAR Dataset/activity_labels.txt")
+Activities <- read.table("UCI HAR Dataset/activity_labels.txt") # 6 x 2
 
 # Cleaning and merging
 colnames(Xtrain) <- Features$V2
